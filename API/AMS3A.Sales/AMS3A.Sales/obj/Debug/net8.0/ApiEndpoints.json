@@ -8,8 +8,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "AMS3A.Sales.Domain.Product",
+        "Name": "productRequest",
+        "Type": "AMS3A.Sales.Domain.ProductRequest",
         "IsRequired": true
       }
     ],
@@ -17,13 +17,23 @@
   },
   {
     "ContainingType": "AMS3A.Sales.Controllers.ProductController",
-    "Method": "GetAll",
+    "Method": "Get",
     "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AMS3A.Sales.Domain.Product, AMS3A.Sales, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "AMS3A.Sales.Controllers.ProductController",
@@ -42,43 +52,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "AMS3A.Sales.Controllers.ProductController",
-    "Method": "Delete",
-    "RelativePath": "api/Product/{Id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "AMS3A.Sales.Controllers.ProductController",
-    "Method": "Update",
-    "RelativePath": "api/Product/{Id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "newProduct",
-        "Type": "AMS3A.Sales.Domain.Product",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "AMS3A.Sales.Controllers.CategoryController",
     "Method": "Post",
     "RelativePath": "api/v1/Category",
@@ -87,8 +60,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cat",
-        "Type": "AMS3A.Sales.API.Domain.Category",
+        "Name": "categoryRequest",
+        "Type": "AMS3A.Sales.API.Domain.CategoryRequest",
         "IsRequired": true
       }
     ],
@@ -139,42 +112,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "AMS3A.Sales.Controllers.CategoryController",
-    "Method": "Delete",
-    "RelativePath": "api/v1/Category/{Id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "AMS3A.Sales.Controllers.CategoryController",
-    "Method": "Update",
-    "RelativePath": "api/v1/Category/{Id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "newCat",
-        "Type": "AMS3A.Sales.API.Domain.Category",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

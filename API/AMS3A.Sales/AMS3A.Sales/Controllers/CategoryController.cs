@@ -18,16 +18,16 @@ namespace AMS3A.Sales.Controllers
         [HttpPost]
         public ActionResult Post(CategoryRequest categoryRequest)
         {
-            var cat = new Category()
+            var category = new Category()
             {
                 Description = categoryRequest.Description,
                 IsActived = true,
                 ImageURL = categoryRequest.ImageURL,
             };
-            if (cat == null) return NotFound();
-            _context.Category.Add(cat);
+            if (category == null) return NotFound();
+            _context.Category.Add(category);
             _context.SaveChanges();
-            return Ok(cat);
+            return Ok(category);
         }
         [HttpGet]
         public ActionResult<IEnumerable<Category>> Get()
@@ -38,9 +38,9 @@ namespace AMS3A.Sales.Controllers
         [Route("{Id:Guid}")]
         public ActionResult<Category> GetById(Guid Id)
         {
-            var cat = _context.Category.FirstOrDefault(x => x.Id == Id);
-            if (cat == null) return NotFound();
-            return Ok(cat);
+            var category = _context.Category.FirstOrDefault(x => x.Id == Id);
+            if (category == null) return NotFound();
+            return Ok(category);
         }
     }
 }
