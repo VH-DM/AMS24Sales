@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vx/RsGbR4L34rTgT2osl1ftGvsWLJs0q6NPSn8ql0atUYf0r72sZr3WQJKIolWZ0ietYpU12DyA/KPpnWc/57w==",
+  "dgSpecHash": "tXqmFLzwxeuoi2mSndjJq4b0a3sViujq4Ixmf/kf/wWZK6ykiJ627h1/Fde0J8dF60zIfMVfnFbqj2SClhVtOg==",
   "success": true,
-  "projectFilePath": "C:\\src\\AMS24Sales\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj",
+  "projectFilePath": "C:\\src\\trabalho_fantasma\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fatec Taqua. 02\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Fatec Taqua. 02\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

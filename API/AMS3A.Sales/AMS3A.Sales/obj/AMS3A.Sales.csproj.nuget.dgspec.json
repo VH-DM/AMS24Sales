@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\src\\AMS24Sales\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj": {}
+    "C:\\src\\trabalho_fantasma\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj": {}
   },
   "projects": {
-    "C:\\src\\AMS24Sales\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj": {
+    "C:\\src\\trabalho_fantasma\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\src\\AMS24Sales\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj",
+        "projectUniqueName": "C:\\src\\trabalho_fantasma\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj",
         "projectName": "AMS3A.Sales",
-        "projectPath": "C:\\src\\AMS24Sales\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj",
+        "projectPath": "C:\\src\\trabalho_fantasma\\API\\AMS3A.Sales\\AMS3A.Sales\\AMS3A.Sales.csproj",
         "packagesPath": "C:\\Users\\Fatec Taqua. 02\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\AMS24Sales\\API\\AMS3A.Sales\\AMS3A.Sales\\obj\\",
+        "outputPath": "C:\\src\\trabalho_fantasma\\API\\AMS3A.Sales\\AMS3A.Sales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fatec Taqua. 02\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -14,5 +14,5 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'AMS3ASalesUI';
+  title = 'AMS3ASalesUI'
 }
