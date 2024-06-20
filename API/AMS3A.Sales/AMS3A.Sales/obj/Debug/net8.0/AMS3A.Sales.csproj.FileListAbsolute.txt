@@ -886,7 +886,6 @@ C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\staticwebassets\m
 C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.AMS3A.Sales.props
 C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\staticwebassets.pack.json
 C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\scopedcss\bundle\AMS3A.Sales.styles.css
-C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\AMS3A.Sa.E9BE486D.Up2Date
 C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\AMS3A.Sales.dll
 C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\refint\AMS3A.Sales.dll
 C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\AMS3A.Sales.pdb
@@ -1020,3 +1019,4 @@ C:\src\trabalho_fantasma\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\refint\AMS
 C:\src\trabalho_fantasma\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\AMS3A.Sales.pdb
 C:\src\trabalho_fantasma\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\AMS3A.Sales.genruntimeconfig.cache
 C:\src\trabalho_fantasma\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\ref\AMS3A.Sales.dll
+C:\src\AMS24Sales\API\AMS3A.Sales\AMS3A.Sales\obj\Debug\net8.0\AMS3A.Sales.csproj.CopyComplete
